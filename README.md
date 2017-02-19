@@ -8,7 +8,7 @@ This is pretty much a work in proggress, feel free to use it, collaborate, repor
 
 This project is based in the latest Joomla! 3.x version.
 
-Yes you read right, this project uses a core hacked version of Gantry Framework, you should not update Grantry we will do that and update the repo.
+Yes you read right, this project uses a core hacked version of Gantry Framework, you should not update Grantry we will do that and update the repo. We removed a lot of bloat and unwanted featured from Gantry and we have the intention to remove it completely in the near future.
 
 We don't have any release schedule or planification "yet", we will release/update as soon as we require/desire. 
 
