@@ -1,0 +1,6 @@
+## generic files to ignore
+.project
+.buildpath
+.settings
+.externalToolBuilders
+build_vars.php
