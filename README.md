@@ -37,17 +37,16 @@ After build the source do not <code>git add</code> the following resources:
 
 These resources will be rejected on any pull resquest. We do like to keep a single database version (ours) and let the people collaborate on any other file.
 
-### Development instructions:
+### How to collaborate:
 
 * Clone the repository to a local folder
-* Create the file <code>build_vars.php</code> and setup the <code>$source_dir</code>
+* Create the file <code>build_vars.php</code> and setup the var <code>$source_dir</code>
 * Copy the <code>site</code> folder to your local server
 * Install the site
-* Do any changes to the files at your local server
+* Do any changes
 * Create a new Akeeba backup
 * Open the CLI, move to the repository folder and run <code>php build.php</code>
-* Run <code>git status</code> to see the change
-* Commit and do a regular PR
+* Now you can commit and do a regular PR
  
 ## Change log:
 
