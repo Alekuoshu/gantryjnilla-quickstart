@@ -1,7 +1,7 @@
 
 
 <div class="template-preview">
-	<h1>GantryJnilla <span class="g4-version">0.0.35</span></h1>
+	<h1>GantryJnilla <span class="g4-version">1.0.0</span></h1>
 	<p><img src="<?php echo $gantry->templateUrl;?>/logo.png" /></p>
 	<p>Read the documentation <a target='_blank' href='https://docs.google.com/document/d/1fwoWNdjGUZXvyGXyqzgGibaM6pZFhA_t-k9fc_2Cvu0/edit#heading=h.i0egaowm03c3'>Here</a></p>
 </div>
