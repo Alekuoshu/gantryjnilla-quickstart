@@ -19,7 +19,7 @@ The folder <code>site</code> is an uncompressed Akeeba backup, so it is ready to
 
 The file <code>build.php</code> is a PHP console script to prepare and build the source from the most recent akeeba backup.
 
-You will requiere to create the file <code>build_vars.php</code> to store configuration vars requiered by the build.php script.
+You will requiere to create the file <code>build_vars.php</code> (same folder as <code>build.php</code>) to store configuration vars requiered by the build.php script.
 
 **Example: build_vars.php**
 <code>
