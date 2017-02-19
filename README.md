@@ -37,7 +37,7 @@ After build the source do not <code>git add</code> the following resources:
 
 These resources will be rejected on any pull resquest. We do like to keep a single database version (ours) and let the people collaborate on any other file.
 
-### How to collaborate:
+## How to collaborate:
 
 * Clone the repository to a local folder
 * Create the file <code>build_vars.php</code> and setup the var <code>$source_dir</code>
