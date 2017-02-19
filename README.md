@@ -25,7 +25,7 @@ You will requiere to create the file <code>build_vars.php</code> (same folder as
 
 After build the source do not <code>git add</code> the following resources:
 
-* <code>configuration.php</code>
+* <code>site/configuration.php</code>
 * <code>site/installation</code>
 
 These resources will be rejected on any pull resquest. We do like to keep a single database version (ours) and let the people collaborate on any other file.
