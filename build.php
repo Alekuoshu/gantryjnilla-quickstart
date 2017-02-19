@@ -55,14 +55,8 @@ if(extractBackup($file, $destination_dir)){
 text_('Prepare configuration.php file');
 $file = "$destination_dir/configuration.php";
 $content = file_get_contents ($file);
-purgeConfig($content, 'dbtype');
-purgeConfig($content, 'host');
-purgeConfig($content, 'user');
-purgeConfig($content, 'password');
-purgeConfig($content, 'db');
-purgeConfig($content, 'dbprefix');
-purgeConfig($content, 'live_site');
-purgeConfig($content, 'secret');
+purgeConfig($content, 'log_path');
+purgeConfig($content, 'tmp_path');
 file_put_contents($file, $content);
 text_('Done !', 'color_green');
 

@@ -1,6 +1,10 @@
-## generic files to ignore
+# eclipse
 .project
 .buildpath
 .settings
 .externalToolBuilders
+
+# misc
 build_vars.php
+site/configuration.php
+site/installation
