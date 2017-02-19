@@ -23,15 +23,6 @@ The file <code>build.php</code> is a PHP console script to prepare and build the
 
 You will requiere to create the file <code>build_vars.php</code> (same folder as <code>build.php</code>) to store configuration vars requiered by the build.php script.
 
-After build the source do not <code>git add</code> the following resources:
-
-* <code>site/configuration.php</code>
-* <code>site/installation</code>
-
-These resources will be rejected on any pull resquest. We do like to keep a single database version (ours) and let the people collaborate on any other file.
-
-
-
 **Example: build_vars.php**
 <code>
 <?php 
@@ -39,6 +30,25 @@ $source_dir = '/path/to/my/development/installation';
 ?>
 </code>
 
+After build the source do not <code>git add</code> the following resources:
+
+* <code>site/configuration.php</code>
+* <code>site/installation</code>
+
+These resources will be rejected on any pull resquest. We do like to keep a single database version (ours) and let the people collaborate on any other file.
+
+### Development instructions:
+
+* Clone the repository to a local folder
+* Create the file <code>build_vars.php</code> and setup the <code>$source_dir</code>
+* Copy the <code>site</code> folder to your local server
+* Install the site
+* Do any changes to the files at your local server
+* Create a new Akeeba backup
+* Open the CLI, move to the repository folder and run <code>php build.php</code>
+* Run <code>git status</code> to see the change
+* Commit and do a regular PR
+ 
 ## Change log:
 
 * 02/19/2016
