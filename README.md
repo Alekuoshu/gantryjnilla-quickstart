@@ -50,7 +50,7 @@ These resources will be rejected on any pull resquest. We do like to keep a sing
 
 ## Change log:
 
-* v 1.0.0 - 02/19/2016
+* **v 1.0.0 - 02/19/2016**
   * jn-animation: Code was simplified
   * jn-anchor: Is a new feature to add transitions to anchors by using a class.
   * jn-parallax: Is a new feature to add background parallax effect to elements by using a class.
