@@ -2,7 +2,7 @@
 /**
  * @version   $Id: gantry.config.php 2325 2012-08-13 17:46:48Z btowles $
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2016 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  *
  * Gantry uses the Joomla Framework (http://www.joomla.org), a GNU/GPLv2 content management system
@@ -33,7 +33,7 @@ $gantry_default_layoutschemas =
         4 => array(4, 4, 4, 3),
         5 => array(3, 3, 3, 3, 3),
         6 => array(2, 3, 3, 3, 2, 2)
-        ),
+        ),    
     14=>array(
         1 => array(14),
         2 => array(7, 7),
@@ -132,7 +132,7 @@ $gantry_default_mainbodyschemas = array(
 $gantry_default_pushpullschemas = array(
 
 	'mb9' => array(''),
-
+	
 	'mb5-sa4' => array('',''),
 	'mb6-sa3' => array ('',''),
 	'mb7-sa2' => array ('',''),
@@ -265,7 +265,7 @@ $gantry_default_mainbodyschemascombos = array(
 				array('mb'=>5, 'sa'=>4),
 				array('mb'=>6, 'sa'=>3),
 				array('mb'=>7, 'sa'=>2),
-
+				
 				array('sa'=>4, 'mb'=>5),
 				array('sa'=>3, 'mb'=>6),
 				array('sa'=>2, 'mb'=>7)
@@ -273,15 +273,15 @@ $gantry_default_mainbodyschemascombos = array(
 		3 => array(
 				array('mb'=>3, 'sa'=>3, 'sb'=>3),
 				array('mb'=>5, 'sa'=>2, 'sb'=>2),
-
+				
 				array('sa'=>3, 'mb'=>3, 'sb'=>3),
 				array('sa'=>2, 'mb'=>5, 'sb'=>2),
-
+				
 				array('sa'=>3, 'sb'=>3, 'mb'=>3),
 				array('sa'=>2, 'sb'=>2, 'mb'=>5)
 		)
 	),
-
+	
 	12 => array(
 	    1 => array(
 	            array('mb'=>12)
@@ -339,7 +339,7 @@ $gantry_default_mainbodyschemascombos = array(
 
 	    )
 	),
-
+	
 	16 => array(
 		1 => array(
 	            array('mb'=>16)
@@ -349,7 +349,7 @@ $gantry_default_mainbodyschemascombos = array(
 	            array('mb'=>10, 'sa'=>6),
 	            array('mb'=>12, 'sa'=>4),
 				array('mb'=>13, 'sa'=>3),
-
+			
 	            array('sa'=>8, 'mb'=>8),
 	            array('sa'=>6, 'mb'=>10),
 	            array('sa'=>4, 'mb'=>12),

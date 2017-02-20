@@ -3,9 +3,9 @@
  * CREDITS
  *
  * @package		gantry
- * @version		4.1.26 October 9, 2014
+ * @version		4.1.32 September 14, 2016
  * @author		RocketTheme http://www.rockettheme.com
- * @copyright 	Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @copyright 	Copyright (C) 2007 - 2016 RocketTheme, LLC
  * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  *
  */

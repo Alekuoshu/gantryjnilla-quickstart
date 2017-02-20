@@ -1,18 +1,18 @@
 /**
- * @version   4.1.26 October 9, 2014
+ * @version   4.1.32 September 14, 2016
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2016 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 
 html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 { -webkit-text-size-adjust:none;}
-.rt-normal .container, .rt-flipped .container, .rt-left .container, .rt-right .container {margin-left: 0;width: 100%;}
+.rt-normal .rt-container, .rt-flipped .rt-container, .rt-left .rt-container, .rt-right .rt-container {margin-left: 0;width: 100%;}
 body.rt-normal, body.rt-flipped, body.rt-left, body.rt-right {width: 100% !important;min-width: 100% !important;}
 
 
-.rt-normal .container .jn-span-12, .rt-flipped .container .jn-span-12 {width: 100%;}
-.rt-left .container .jn-span-12, .rt-right .container .jn-span-12 {width: 100%;}
-.jn-span-1, .jn-span-2, .jn-span-3, .jn-span-4, .jn-span-5, .jn-span-6, .jn-span-7, .jn-span-8, .jn-span-9, .jn-span-10, .jn-span-11, .jn-span-12 {margin-left:0; margin-right: 0;}
+.rt-normal .rt-container .rt-grid-12, .rt-flipped .rt-container .rt-grid-12 {width: 100%;}
+.rt-left .rt-container .rt-grid-12, .rt-right .rt-container .rt-grid-12 {width: 100%;}
+.rt-grid-1, .rt-grid-2, .rt-grid-3, .rt-grid-4, .rt-grid-5, .rt-grid-6, .rt-grid-7, .rt-grid-8, .rt-grid-9, .rt-grid-10, .rt-grid-11, .rt-grid-12 {margin-left:0; margin-right: 0;}
 
 
 body {font-size: 14px;line-height: 1.7em;font-family: Helvetica,Arial, Sans-Serif;}
@@ -29,7 +29,7 @@ body h4 {font-size: 130%;}
 body h5 {font-size: 120%;}
 body h2.title {font-size: 150%;letter-spacing: -1px;line-height: 1em;}
 
-body .jn-block {padding: 10px;}
+body .rt-block {padding: 10px;}
 
 body h1 {border-bottom: 1px solid #e9e9e9;padding-bottom: 5px;}
 body .rt-articleinfo {color: #777;font-size: 85%;background: #f3f3f3;text-shadow: 1px solid #fff;-webkit-border-radius: 8px;padding: 0px 5px;}
@@ -38,7 +38,7 @@ body .rt-article-icons {margin-top: 3px;}
 #rt-logo {width: 98px;height: 32px;display: block;margin:0 auto;}
 #rt-logo {background: url(../images/iphone/branding.png) top left no-repeat;}
 
-#rt-showcase .container .jn-block {margin: 10px; background: #ddd;text-shadow: 1px 1px 1px #fff;-webkit-border-radius: 20px;-webkit-box-shadow: 0 0 5px #999;border:2px solid #fff;}
+#rt-showcase .rt-container .rt-block {margin: 10px; background: #ddd;text-shadow: 1px 1px 1px #fff;-webkit-border-radius: 20px;-webkit-box-shadow: 0 0 5px #999;border:2px solid #fff;}
 
 .scrollbar {position: absolute;z-index: 3;width: 1px;height: 1px;border-width: 3px;-webkit-border-image: url(../images/iphone/scrollbar.png) 3;}
 .scrollbar.horizontal {bottom: 1px;left: 1px;}
@@ -50,13 +50,13 @@ body .rt-article-icons {margin-top: 3px;}
 
 
 /* Menu */
-body #rt-menu .container {background: transparent;height:auto;overflow:hidden;}
+body #rt-menu .rt-container {background: transparent;height:auto;overflow:hidden;}
 .rt-menu-container {overflow:hidden;}
 #rt-menu-root {z-index:50;position:relative;}
 #rt-menu ul.menu ul {display: none;position:absolute;z-index:5;top: 0; left: 0;background:white;}
-#rt-menu , #rt-menu .container {position:relative;z-index:10000;}
-body.rt-normal #rt-menu .container, body.rt-flipped #rt-menu .container {width: 320px;}
-body.rt-right #rt-menu .container, body.rt-left #rt-menu .container {width: 480px;}
+#rt-menu , #rt-menu .rt-container {position:relative;z-index:10000;}
+body.rt-normal #rt-menu .rt-container, body.rt-flipped #rt-menu .rt-container {width: 320px;}
+body.rt-right #rt-menu .rt-container, body.rt-left #rt-menu .rt-container {width: 480px;}
 #rt-menu ul.menu {height:100%;}
 #rt-menu ul.menu li a:hover, #rt-menu ul.menu li.active a:hover {background: transparent !important;}
 body #rt-menu {background: url(../images/iphone/menu-bg.png) repeat-x !important;height: auto;}
@@ -246,4 +246,4 @@ body.rt-left .cube.out.reverse, body.rt-right .cube.out.reverse {-webkit-animati
     to {-webkit-transform: scale(.2);opacity: 0;}
 }
 /* temp */
-.container {background: #fff;}
+.rt-container {background: #fff;}

@@ -1,7 +1,7 @@
 /**
- * @version   4.1.26 October 9, 2014
+ * @version   4.1.32 September 14, 2016
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2016 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 
@@ -95,30 +95,30 @@ tr.sectiontableentry0 td, td.sectiontableentry0, tr.sectiontableentry1 td, td.se
 #form-login p {margin-bottom: 10px;}
 #form-login .user-greeting {font-weight: bold;font-size: 120%;margin-bottom: 15px;}
 .component-content .user label.label-left, .component-content .user span.label-left {display: block;width: 130px;float: left;font-weight: bold;font-size: 120%;}
-.col12 .jn-span-2 #form-login .inputbox {width: 104px;}
-.col12 .jn-span-3 #form-login .inputbox {width: 184px;}
-.col12 .jn-span-4 #form-login .inputbox {width: 264px;}
-.col12 .jn-span-5 #form-login .inputbox {width: 344px;}
-.col12 .jn-span-6 #form-login .inputbox {width: 424px;}
-.col12 .jn-span-7 #form-login .inputbox {width: 504px;}
-.col12 .jn-span-8 #form-login .inputbox {width: 584px;}
-.col12 .jn-span-9 #form-login .inputbox {width: 664px;}
-.col12 .jn-span-10 #form-login .inputbox {width: 744px;}
-.col12 .jn-span-12 #form-login .inputbox {width: 904px;}
-.col16 .jn-span-2 #form-login .inputbox {width: 64px;}
-.col16 .jn-span-3 #form-login .inputbox {width: 124px;}
-.col16 .jn-span-4 #form-login .inputbox {width: 184px;}
-.col16 .jn-span-5 #form-login .inputbox {width: 244px;}
-.col16 .jn-span-6 #form-login .inputbox {width: 304px;}
-.col16 .jn-span-7 #form-login .inputbox {width: 364px;}
-.col16 .jn-span-8 #form-login .inputbox {width: 424px;}
-.col16 .jn-span-9 #form-login .inputbox {width: 484px;}
-.col16 .jn-span-10 #form-login .inputbox {width: 544px;}
-.col16 .jn-span-11 #form-login .inputbox {width: 604px;}
-.col16 .jn-span-12 #form-login .inputbox {width: 664px;}
-.col16 .jn-span-13 #form-login .inputbox {width: 724px;}
-.col16 .jn-span-14 #form-login .inputbox {width: 784px;}
-.col16 .jn-span-15 #form-login .inputbox {width: 844px;}
+.col12 .rt-grid-2 #form-login .inputbox {width: 104px;}
+.col12 .rt-grid-3 #form-login .inputbox {width: 184px;}
+.col12 .rt-grid-4 #form-login .inputbox {width: 264px;}
+.col12 .rt-grid-5 #form-login .inputbox {width: 344px;}
+.col12 .rt-grid-6 #form-login .inputbox {width: 424px;}
+.col12 .rt-grid-7 #form-login .inputbox {width: 504px;}
+.col12 .rt-grid-8 #form-login .inputbox {width: 584px;}
+.col12 .rt-grid-9 #form-login .inputbox {width: 664px;}
+.col12 .rt-grid-10 #form-login .inputbox {width: 744px;}
+.col12 .rt-grid-12 #form-login .inputbox {width: 904px;}
+.col16 .rt-grid-2 #form-login .inputbox {width: 64px;}
+.col16 .rt-grid-3 #form-login .inputbox {width: 124px;}
+.col16 .rt-grid-4 #form-login .inputbox {width: 184px;}
+.col16 .rt-grid-5 #form-login .inputbox {width: 244px;}
+.col16 .rt-grid-6 #form-login .inputbox {width: 304px;}
+.col16 .rt-grid-7 #form-login .inputbox {width: 364px;}
+.col16 .rt-grid-8 #form-login .inputbox {width: 424px;}
+.col16 .rt-grid-9 #form-login .inputbox {width: 484px;}
+.col16 .rt-grid-10 #form-login .inputbox {width: 544px;}
+.col16 .rt-grid-11 #form-login .inputbox {width: 604px;}
+.col16 .rt-grid-12 #form-login .inputbox {width: 664px;}
+.col16 .rt-grid-13 #form-login .inputbox {width: 724px;}
+.col16 .rt-grid-14 #form-login .inputbox {width: 784px;}
+.col16 .rt-grid-15 #form-login .inputbox {width: 844px;}
 #users-profile-core, #users-profile-custom {margin: 10px 0 15px 0;padding: 15px;}
 #users-profile-core dt, #users-profile-custom dt {float: left;width: 10em;padding: 3px 0;}
 #users-profile-core dd, #users-profile-custom dd {padding: 3px 0;}

@@ -1,7 +1,7 @@
 /**
- * @version   4.1.26 October 9, 2014
+ * @version   4.1.32 September 14, 2016
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2014 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2016 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
  */
 
@@ -9,13 +9,13 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, caption {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;background: transparent;}
 
 /* Grid Container */
-.container {margin: 0 auto;width: 960px;}
+.rt-container {margin: 0 auto;width: 960px;}
 body {min-width: 960px;}
 
 /* Grid Block */
-.jn-block {padding: 15px;margin-bottom: 10px;position: relative;}
-#rt-content-top .jn-alpha, #rt-content-bottom .jn-alpha {margin-left: 0;}
-#rt-content-top .jn-omega, #rt-content-bottom .jn-omega {margin-right: 0;}
+.rt-block {padding: 15px;margin-bottom: 10px;position: relative;}
+#rt-content-top .rt-alpha, #rt-content-bottom .rt-alpha {margin-left: 0;}
+#rt-content-top .rt-omega, #rt-content-bottom .rt-omega {margin-right: 0;}
 
 /* Layout */
 #rt-logo {width: 185px;height: 115px;display: block;}
@@ -24,7 +24,7 @@ body {min-width: 960px;}
 #rt-copyright {text-align: center;}
 
 /* Menu */
-#rt-menu .container {height: 3em;}
+#rt-menu .rt-container {height: 3em;}
 #rt-menu ul.menu {list-style: none;margin: 0 10px;padding: 0;}
 #rt-menu ul.menu li {float: left;padding: 0;background: none;}
 #rt-menu ul.menu li a {font-weight: bold;line-height: 3em;display: block;padding: 0 15px;font-size: 1em;}
@@ -76,15 +76,15 @@ ul li.author span, ul li.date span, ul li.comments span {display: block;font-wei
 body.rtl {direction: rtl;}
 body.rtl #rt-menu ul.menu {float: right;}
 body.rtl #rt-menu ul.menu li {float: right;}
-body.rtl #rt-content-top .jn-alpha, body.rtl #rt-content-bottom .jn-alpha {margin-right: 0;margin-left: 10px;}
-body.rtl #rt-content-top .jn-omega, body.rtl #rt-content-bottom .jn-omega {margin-left: 0;margin-right: 10px;}
+body.rtl #rt-content-top .rt-alpha, body.rtl #rt-content-bottom .rt-alpha {margin-right: 0;margin-left: 10px;}
+body.rtl #rt-content-top .rt-omega, body.rtl #rt-content-bottom .rt-omega {margin-left: 0;margin-right: 10px;}
 body.rtl {min-width: inherit;}
 
 /* Style */
 html,body {margin-bottom: 1px;}
 body {color: #333;}
 #rt-header, #rt-bottom {color: #aaa;}
-.container {background: #fff;} 
+.rt-container {background: #fff;} 
 a:hover {color: #000;}
 #rt-logo {background: url(../images/header-assets.png) 0 0 no-repeat;}
 #rt-menu ul.menu li a {color: #fff;}
