@@ -47,13 +47,18 @@ These resources will be rejected on any pull resquest. We do like to keep a sing
 * Create a new Akeeba backup
 * Open the CLI, move to the repository folder and run <code>php build.php</code>
 * Now you can commit and do a regular PR
- 
+
 ## Change log:
 
-* 02/19/2016
+* v 1.0.0 - 02/19/2016
   * jn-animation: Code was simplified
   * jn-anchor: Is a new feature to add transitions to anchors by using a class.
   * jn-parallax: Is a new feature to add background parallax effect to elements by using a class.
   * jn-video: Is a new feature to add minimalistic video controls to video tags.
   * Demo page was updated
-  
+
+
+
+
+
+
