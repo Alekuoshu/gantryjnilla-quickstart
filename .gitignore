@@ -5,4 +5,5 @@
 .externalToolBuilders
 
 # builder
-build_vars.php
+jn-build
+jn-build-args.php

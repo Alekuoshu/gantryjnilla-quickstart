@@ -4,18 +4,16 @@ Joomla! 3.x quickstart package for rapid site and template development with a co
 
 ## Abstract:
 
-This is pretty much a work in proggress, feel free to use it, collaborate, report issues or request new features.
+This is a work in proggress, feel free to use it, collaborate, report issues or request new features. We don't have any release schedule or planification "yet", we will release/update as soon as we require/desire. 
 
-This project is based in the latest Joomla! 3.x version.
-
-Yes you read right, this project uses a core hacked version of Gantry Framework, you should not update Grantry we will do that and update the repo. We removed a lot of bloat and unwanted featured from Gantry and we have the intention to remove it completely in the near future.
-
-We don't have any release schedule or planification "yet", we will release/update as soon as we require/desire. 
+This project is based in the latest Joomla! 3.x version and yes you read right, this project uses a core hacked version of Gantry Framework, you should not update Grantry we will do that for you and update the repo. We removed a lot of bloat and unwanted featured from Gantry and we have the intention to remove it completely in the near future.
 
 Documentation can be seen here (temporally): https://docs.google.com/document/d/1fwoWNdjGUZXvyGXyqzgGibaM6pZFhA_t-k9fc_2Cvu0/edit#heading=h.lgi9d83xl2u6
 
 
-## Development:
+## Development
+
+Default login information is user = "myadmin" and pass ="myadmin".
 
 The folder <code>site</code> is an uncompressed Akeeba backup, so it is ready to download and install.
 
@@ -37,7 +35,7 @@ After build the source do not <code>git add</code> the following resources:
 
 These resources will be rejected on any pull resquest. We do like to keep a single database version (ours) and let the people collaborate on any other file.
 
-## How to collaborate:
+## How to collaborate
 
 * Clone the repository to a local folder
 * Create the file <code>build_vars.php</code> and setup the var <code>$source_dir</code>
@@ -48,7 +46,7 @@ These resources will be rejected on any pull resquest. We do like to keep a sing
 * Open the CLI, move to the repository folder and run <code>php build.php</code>
 * Now you can commit and do a regular PR
 
-## Change log:
+## Change log
 
 * **v 1.0.0 - 02/19/2016**
   * jn-animation: Code was simplified
