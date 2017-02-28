@@ -45,7 +45,7 @@ $canEdit = $params->get('access-edit');
 	<?php endif; ?>
 
 	<?php // article content ?>
-	<div class="artcle-fulltext" itemprop="articleBody">
+	<div class="article-fulltext" itemprop="articleBody">
 		<?php echo $this->item->text; ?>
 	</div>
 
